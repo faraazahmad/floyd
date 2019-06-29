@@ -1,0 +1,24 @@
+{
+  "name": "gql-framework",
+  "version": "1.0.0",
+  "description": "a framework to build backends with first-class GraphQL support",
+  "main": "index.js",
+  "dependencies": {
+    "fastify": "^2.6.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/faraazahmad/gql-framework.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/faraazahmad/gql-framework/issues"
+  },
+  "homepage": "https://github.com/faraazahmad/gql-framework#readme"
+}
