@@ -1,8 +1,20 @@
 {
   "name": "gql-framework",
   "version": "1.0.0",
-  "description": "",
+  "description": "a framework to build backends with first-class GraphQL support",
   "main": "index.js",
+  "dependencies": {
+    "@types/lodash": "^4.14.135",
+    "@types/mongoose": "^5.5.6",
+    "@types/node": "^12.0.10",
+    "graphql-import": "^0.7.1",
+    "graphql-tools": "^4.0.5",
+    "graphql-yoga": "^1.18.0",
+    "lodash": "^4.17.11",
+    "mongoose": "^5.6.2",
+    "typescript": "^3.5.2"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
