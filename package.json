@@ -16,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/faraazahmad/gql-framework/issues"
   },
-  "homepage": "https://github.com/faraazahmad/gql-framework#readme"
+  "homepage": "https://github.com/faraazahmad/gql-framework#readme",
+  "bin": {
+    "floyd": "./cli.js"
+  },
+  "dependencies": {
+    "yargs": "^13.2.4"
+  }
 }
