@@ -1,0 +1,15 @@
+import gql from 'graphql-tag';
+
+export const typeDef = gql`
+    extend type Query {
+        users: [User],
+        user(id: ID!): User,
+    }
+    
+    type User {
+        id: ID!,
+        name: String,
+        email: String,
+        username: String,
+    }
+`;
